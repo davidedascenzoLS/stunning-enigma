@@ -1,0 +1,43 @@
+export default function ProjectTitle({
+    title = "Main Title",
+    subtitle = "Subtitle description goes here",
+    titleSize = "text-4xl",
+    titleColor = "text-gray-800",
+    titleWeight = "font-light",
+    titleAlignment = "text-center",
+    titleTracking = "tracking-wide",
+    titleTransform = "normal-case",
+    subtitleSize = "text-lg",
+    subtitleColor = "text-gray-500",
+    subtitleWeight = "font-light",
+    subtitleAlignment = "text-center",
+    subtitleTracking = "tracking-normal",
+    subtitleTransform = "normal-case",
+    spacing = "mt-2",
+    containerSpacing = "my-12",
+    maxWidth = "max-w-3xl",
+    containerAlignment = "mx-auto",
+    titleFirst = true
+  }) {
+    const containerClass = `${maxWidth} ${containerAlignment} ${containerSpacing} px-4`;
+    const titleClass = `${titleSize} ${titleColor} ${titleWeight} ${titleAlignment} ${titleTracking} ${titleTransform}`;
+    const subtitleBaseClass = `${subtitleSize} ${subtitleColor} ${subtitleWeight} ${subtitleAlignment} ${subtitleTracking} ${subtitleTransform}`;
+    const subtitleClassWithSpacing = `${subtitleBaseClass} ${spacing}`;
+  
+    return (
+      <div className={containerClass}>
+        {titleFirst ? (
+          <>
+            <h2 className={titleClass}>{title}</h2>
+            <p className={subtitleClassWithSpacing}>{subtitle}</p>
+          </>
+        ) : (
+          <>
+            <p className={subtitleBaseClass}>{subtitle}</p>
+            <h2 className={`${titleClass} ${spacing}`}>{title}</h2>
+          </>
+        )}
+      </div>
+    );
+  }
+  

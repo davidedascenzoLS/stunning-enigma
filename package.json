@@ -1,0 +1,48 @@
+{
+  "name": "ls-platform_1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tailwind:init": "tailwindcss init -p"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.6.3",
+    "jose": "^6.0.10",
+    "keen-slider": "^6.8.6",
+    "lucide-react": "^0.487.0",
+    "nanoid": "^5.1.5",
+    "next": "^15.2.4",
+    "next-auth": "^4.24.11",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.55.0",
+    "react-photo-album": "^3.1.0",
+    "react-use-measure": "^2.1.7",
+    "sharp": "^0.34.1",
+    "swr": "^2.3.3",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.24.0",
+    "eslint-config-next": "15.2.4",
+    "eslint-config-prettier": "^10.1.2",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3"
+  }
+}
