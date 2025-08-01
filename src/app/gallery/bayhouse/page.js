@@ -28,7 +28,7 @@ export default function Bayhouse() {
   <div className=" h-screen sticky top-0 ">
         <video
           className="w-full h-full object-cover absolute top-0 left-0"
-          src="/pj/bayhouse/BayHouse.mp4"
+          src="https://res.cloudinary.com/dvtbwrika/video/upload/v1754034188/BayHouse_ytzoyc.mp4"
           autoPlay
           muted
           loop
