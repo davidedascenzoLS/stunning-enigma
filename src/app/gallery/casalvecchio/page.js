@@ -17,13 +17,6 @@ export default function Casalvecchio() {
         
         <NavbarNew className="fixed top-0 z-50" />
 
-        <ProjectHeader
-          exterior="//"
-          completion="//"
-          services="//"
-          scale="//"
-          shipyard="//"        
-        />
   
         <FullWidthCover
         image="/pj/casalvecchio/1.JPG"
