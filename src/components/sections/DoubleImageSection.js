@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function DoubleImageSection({ imgLeft, imgRight, className }) {
   return (
     <section className={`flex flex-col md:flex-row ${className}`}>

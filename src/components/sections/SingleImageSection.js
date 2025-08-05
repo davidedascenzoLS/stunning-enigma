@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function SingleImageSection({ 
     image, 
     position = "left", // "left" o "right"

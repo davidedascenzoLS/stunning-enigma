@@ -6,6 +6,7 @@ import ProjectHeader from '@/components/sections/ProjectHeader';
 import Title from '@/components/sections/Title';
 import DoubleImageSection from '@/components/sections/DoubleImageSection';
 import SingleImageSection from '@/components/sections/SingleImageSection';
+import Image from 'next/image'
 
 
 export default function MadameKate() {

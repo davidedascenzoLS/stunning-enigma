@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'
 import { useEffect, useState, useRef } from 'react';
 
 export default function TripleImageSection({ images, titles, links, className }) {
@@ -49,7 +50,7 @@ export default function TripleImageSection({ images, titles, links, className })
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
-              <img 
+              <img
                 src={image}
                 alt={titles[index] || `Immagine ${index + 1}`}
                 className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
