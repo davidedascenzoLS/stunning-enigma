@@ -34,35 +34,35 @@ export default function Casalvecchio() {
         />
 
         <SingleImageSection 
-            image="/pj/casalvecchio/2.JPG"
+            image="/pj/casalvecchio/2.webp"
             position="left"
         />
 
         <SingleImageSection 
-            image="/pj/casalvecchio/3.JPG"
+            image="/pj/casalvecchio/3.webp"
             position="right"
         />
 
         <ImageFullWidth
-            image="/pj/casalvecchio/4.JPG"
+            image="/pj/casalvecchio/4.webp"
             alt="Visual section"
             
           />
 
         <DoubleImageSection
-            imgLeft="/pj/casalvecchio/5.JPG"
-            imgRight="/pj/casalvecchio/6.JPG"
+            imgLeft="/pj/casalvecchio/5.webp"
+            imgRight="/pj/casalvecchio/6.webp"
                       
         />
 
         <ImageFullWidth
-            image="/pj/casalvecchio/7.JPG"
+            image="/pj/casalvecchio/7.webp"
             alt="Visual section"
             
           />
 
          <SingleImageSection 
-            image="/pj/casalvecchio/8.JPG"
+            image="/pj/casalvecchio/8.webp"
             position="left"
           />
 
