@@ -1,14 +1,14 @@
 "use client";
-import Image from 'next/image'
+import Image from 'next/image';
 import { useState } from "react";
 import { X } from "lucide-react";
 
 export default function PressImageSection({
   imgLeft,
   popupImgLeft,
-  modeLeft = "popup", // "popup" o "link"
+  modeLeft = "popup",
   linkLeft = "",
-  newTabLeft = false, // true se aprire in nuova finestra
+  newTabLeft = false,
   
   imgRight,
   popupImgRight,
@@ -32,11 +32,13 @@ export default function PressImageSection({
 
   const renderImage = ({ imgSrc, popupImg, mode, link, newTab }) => {
     const imageElement = (
-      <div className="relative w-full h-full group">
-        <img
+      <div className="relative w-full h-full aspect-[3/4] group">
+        <Image
           src={imgSrc}
           alt=""
-          className="w-full h-full object-cover object-center p-4 md:p-8"
+          fill
+          className="object-cover object-center p-4 md:p-8"
+          sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-30 transition-opacity duration-200"></div>
       </div>
@@ -85,7 +87,7 @@ export default function PressImageSection({
         </div>
 
         {/* Immagine destra */}
-        <div className="w-full md:w-1/2 p:8">
+        <div className="w-full md:w-1/2">
           {renderImage({
             imgSrc: imgRight,
             popupImg: popupImgRight,
@@ -102,7 +104,6 @@ export default function PressImageSection({
           className="fixed inset-0 z-50 flex justify-center items-start p-8 backdrop-blur-md bg-white/80 overflow-y-auto"
           onClick={closePopup}
         >
-          {/* Contenuto popup */}
           <div className="relative w-full flex justify-center">
             <button
               onClick={closePopup}
@@ -110,12 +111,16 @@ export default function PressImageSection({
             >
               <X size={28} />
             </button>
-            <img
-              src={popupImage}
-              alt="Popup"
-              className="w-[60vw] h-auto object-contain"
-              onClick={(e) => e.stopPropagation()}
-            />
+            <div className="relative w-[60vw] h-auto aspect-auto">
+              <Image
+                src={popupImage}
+                alt="Popup"
+                fill
+                className="object-contain"
+                sizes="60vw"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </div>
           </div>
         </div>
       )}
