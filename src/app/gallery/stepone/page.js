@@ -26,7 +26,7 @@ export default function StepOne() {
         />
   
         <FullWidthCover
-        image="/pj/stepone/StepOne_Cover_Pj.webp"
+        image="/pj/stepone/StepOne_Cover_Pj.jpg"
         alt="Visual section"
         
       />   

@@ -26,7 +26,7 @@ export default function Mimtee() {
         />
   
         <FullWidthCover
-        image="/pj/mimtee/Mimtee_Cover_Pj.webp"
+        image="/pj/mimtee/Mimtee_Cover_Pj.jpg"
         alt="Visual section"
         
       />   

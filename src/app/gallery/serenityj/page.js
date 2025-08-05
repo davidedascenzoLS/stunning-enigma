@@ -26,7 +26,7 @@ export default function SerenityJ() {
         />
   
         <FullWidthCover
-        image="/pj/serenityj/SerenityJ_Cover_Pj.webp"
+        image="/pj/serenityj/SerenityJ_Cover_Pj.jpg"
         alt="Visual section"
         
       />   

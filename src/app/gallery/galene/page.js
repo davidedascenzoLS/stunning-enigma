@@ -26,7 +26,7 @@ export default function Galene() {
         />
   
         <FullWidthCover
-        image="/pj/galene/Galene_Cover_Pj.webp"
+        image="/pj/galene/Galene_Cover_Pj.jpg"
         alt="Visual section"
         
       />   

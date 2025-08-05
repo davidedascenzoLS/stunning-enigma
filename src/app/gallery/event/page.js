@@ -26,7 +26,7 @@ export default function Event() {
         />
   
         <FullWidthCover
-        image="/pj/event/Event_Cover_Pj.webp"
+        image="/pj/event/Event_Cover_Pj.jpg"
         alt="Visual section"
         
       />   
