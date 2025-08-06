@@ -5,6 +5,7 @@ export default function ImageTextSection({
   title,
   subtitle,
   text,
+  alt = "Descrizione sezione",
   reverse = false,
   bgColor = "bg-white",
   textColor = "text-gray-800"
@@ -34,10 +35,11 @@ export default function ImageTextSection({
             <div className="h-full w-full relative overflow-hidden">
               <Image
                 src={image}
-                alt="Descrizione sezione"
+                alt={alt}
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 768px) 100vw, 50vw"
+                priority
               />
             </div>
           </div>
