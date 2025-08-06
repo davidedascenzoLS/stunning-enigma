@@ -22,7 +22,7 @@ export default function Home() {
         />
 
         <div className="absolute inset-0 top-0 z-30 flex justify-center md:hidden">
-          <div className="relative w-[70vw] aspect-[10/9]">
+          <div className="relative w-[50vw] aspect-[10/9]">
             <Image 
               src="/logo/Logo_LS.svg"
               alt="LS Platform Logo"
