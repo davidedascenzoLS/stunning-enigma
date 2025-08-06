@@ -21,15 +21,16 @@ export default function Home() {
           playsInline 
         />
 
-        <div className="absolute inset-0 top-0 z-30 flex justify-center md:hidden relative">
-          <Image 
-            src="/logo/Logo_LS.svg"
-            alt="LS Platform Logo"
-            width={300}         // esempio larghezza
-            height={270}        // esempio altezza (approssimativa 9/10 altezza)
-            className="drop-shadow-lg animate-fade-in"
-            priority={true}     // per caricare subito
-          />
+        <div className="absolute inset-0 top-0 z-30 flex justify-center md:hidden">
+          <div className="relative w-[70vw] aspect-[10/9]">
+            <Image 
+              src="/logo/Logo_LS.svg"
+              alt="LS Platform Logo"
+              fill
+              className="object-contain drop-shadow-lg animate-fade-in"
+              priority
+            />
+          </div>
         </div>
       </div>
 
