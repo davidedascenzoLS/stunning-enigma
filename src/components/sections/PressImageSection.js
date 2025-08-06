@@ -9,13 +9,13 @@ export default function PressImageSection({
   modeLeft = "popup",
   linkLeft = "",
   newTabLeft = false,
-  
+
   imgRight,
   popupImgRight,
   modeRight = "popup",
   linkRight = "",
   newTabRight = false,
-  
+
   className,
 }) {
   const [popupImage, setPopupImage] = useState(null);
@@ -111,14 +111,20 @@ export default function PressImageSection({
             >
               <X size={28} />
             </button>
-            <div className="relative w-[60vw] h-auto aspect-auto">
+
+            {/* CORRETTO: uso width/height, non fill */}
+            <div
+              className="relative w-[80vw] max-w-5xl h-auto"
+              onClick={(e) => e.stopPropagation()}
+            >
               <Image
                 src={popupImage}
                 alt="Popup"
-                fill
-                className="object-contain"
-                sizes="60vw"
-                onClick={(e) => e.stopPropagation()}
+                width={1600} // adatta secondo le tue immagini
+                height={1000}
+                className="object-contain w-full h-auto"
+                sizes="80vw"
+                priority
               />
             </div>
           </div>
