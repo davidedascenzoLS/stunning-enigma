@@ -21,7 +21,7 @@ export default function TimeZero() {
 
   
         <FullWidthCoverStudio
-        image="/pj/timezero/Cover_TimeZero_Pj.jpg"
+        image="/pj/timezero/Time.webp"
         alt="Visual section"
         
       />   

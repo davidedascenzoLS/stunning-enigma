@@ -26,7 +26,7 @@ export default function SL96() {
         />
   
         <FullWidthCover
-        image="/pj/sl96/SL96_Cover_Pj.jpg"
+        image="/pj/sl96/SL.webp"
         alt="Visual section"
         
       />   

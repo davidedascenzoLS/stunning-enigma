@@ -26,7 +26,7 @@ export default function ChopiChopi() {
         />
   
         <FullWidthCover
-        image="/pj/chopichopi/ChopiChopi_Cover_Pj.jpg"
+        image="/pj/chopichopi/Chi.webp"
         alt="Visual section"
         
       />   

@@ -26,7 +26,7 @@ export default function CCSummer() {
         />
   
         <FullWidthCover
-        image="/pj/ccsummer/Madsummer_Cover_Pj.jpg"
+        image="/pj/ccsummer/Mad.webp"
         alt="Visual section"
         
       />   

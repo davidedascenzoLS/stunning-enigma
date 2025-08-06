@@ -27,7 +27,7 @@ export default function PrivateVilla() {
   
          
         <FullWidthCover
-          image="/pj/privatevilla/VBR_Cover_Pj.jpg"
+          image="/pj/privatevilla/VBR.webp"
           alt="Visual section"
           
         />   
