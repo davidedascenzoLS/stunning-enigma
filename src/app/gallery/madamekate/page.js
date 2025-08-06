@@ -27,7 +27,7 @@ export default function MadameKate() {
         />
   
         <FullWidthCover
-        image="/pj/madamekate/1.webp"
+        image="/pj/madamekate/MK.webp"
         alt="Visual section"
         
       />   
