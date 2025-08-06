@@ -19,7 +19,7 @@ export default function Casalvecchio() {
 
   
         <FullWidthCover
-        image="/pj/casalvecchio/1.JPG"
+        image="/pj/casalvecchio/1.webp"
         alt="Visual section"
         
       />   

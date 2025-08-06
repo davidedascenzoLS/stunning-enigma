@@ -10,9 +10,9 @@ export default function Gallery() {
       
     <TripleImageSection 
         images={[
-            '/gallery/Madsummer_Cover_b.webp', 
-            '/gallery/MadameKate_Cover_b.webp',
-            '/gallery/ChopiChopi_Cover_b.webp' 
+            '/gallery/Madsummer.webp', 
+            '/gallery/MadameKate.webp',
+            '/gallery/Chopi.webp' 
             
         ]}
         titles={[
@@ -31,9 +31,9 @@ export default function Gallery() {
 
     <TripleImageSection 
         images={[
-            '/gallery/Time0_Cover_b.webp', 
-            '/gallery/Testimonio_Cover_b.webp', 
-            '/gallery/VillaBelRespiro_Cover_b.webp'
+            '/gallery/Time0.webp', 
+            '/gallery/Testimonio.webp', 
+            '/gallery/VBR.webp'
         ]}
         titles={[
             'Project Time Zero', 
@@ -50,9 +50,9 @@ export default function Gallery() {
 
     <TripleImageSection 
         images={[
-            '/gallery/Event_Cover_b.webp', 
-            '/gallery/StepOne_Cover_b.webp', 
-            '/gallery/Galene_Cover_b.webp'
+            '/gallery/Event.webp', 
+            '/gallery/Step1.webp', 
+            '/gallery/Galene.webp'
         ]}
         titles={[
             'MY Event', 
@@ -69,9 +69,9 @@ export default function Gallery() {
 
     <TripleImageSection 
         images={[
-            '/gallery/Mimtee_Cover_b.webp', 
-            '/gallery/SL96_Cover_b.webp', 
-            '/gallery/SerenityJ_Cover_b.webp'
+            '/gallery/Mimtee.webp', 
+            '/gallery/SL96.webp', 
+            '/gallery/SerenityJ.webp'
         ]}
         titles={[
             'MY Mimtee', 
@@ -87,7 +87,7 @@ export default function Gallery() {
         />
 
     <FullWidthSection 
-        image="/gallery/Casalvecchio_Cover_b.webp"
+        image="/gallery/Casalvecchio.webp"
         title="Casalvecchio"
         link="/gallery/casalvecchio"
         className="my-custom-class"
